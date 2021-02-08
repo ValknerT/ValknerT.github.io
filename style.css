@@ -1,19 +1,32 @@
+html, body {
+    height: 100%;
+}
 body {
+    display: flex;
+    flex-direction: column;
     margin-bottom: auto;
     margin-top: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
 }
 header {
-    display: flex;
-    justify-content: center;
     background-color: #71100f;
     color: #fbefef;
     width: auto;
     height: auto;
-    margin-right: auto;
-    margin-left: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.content {
+    flex: 1 0 auto;
 }
 
 footer {    
+    flex-shrink: 0;
     background-color: gold;
     font-weight: bold;
     display: flex;
