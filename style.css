@@ -1,5 +1,42 @@
-h1 {
+body {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+header {
     display: flex;
     justify-content: center;
-    background-color: red;
+    background-color: #71100f;
+    color: #fbefef;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {    
+    background-color: gold;
+    font-weight: bold;
+    display: flex;
+    justify-content: baseline;
+    clear: both;
+    position: initial;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+#footer1 {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font: bold;
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+#footer2 {
+    margin-left: auto;
+    margin-right: 50px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
 }
