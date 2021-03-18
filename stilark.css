@@ -4,6 +4,7 @@ body{
 }
 menu{
     background-color: black;
+    display: inline;
     
 }
 menu a{
