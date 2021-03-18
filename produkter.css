@@ -27,7 +27,7 @@ menu a{
     color: whitesmoke;
 }
 menu li a:hover{
-    background-color: red;
+    background-color: #514f4f;
 }
 menu li:last-child {
     border-right: none;
