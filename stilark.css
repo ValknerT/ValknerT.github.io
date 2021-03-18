@@ -35,3 +35,8 @@ menu li:last-child {
 .active{
     background-color: green;
 }
+
+#overskrift{
+    background-color: whitesmoke;
+    justify-content: center;
+}
