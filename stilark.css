@@ -13,10 +13,14 @@ menu ul{
 }
 menu li{
     float: left;
+    border-right: 1px solid #bbb;
 }
-menu a{
+menu li a{
     display: block;
-  padding: 8px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   background-color: black;
 }
 menu a{
@@ -25,6 +29,9 @@ menu a{
 menu li a:hover{
     background-color: red;
 }
+menu li:last-child {
+    border-right: none;
+  }
 .active{
     background-color: green;
 }
