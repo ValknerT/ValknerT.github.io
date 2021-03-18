@@ -4,10 +4,27 @@ body{
 }
 menu{
     background-color: black;
-    display: inline;
-    
+}
+menu ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+menu li{
+    float: left;
+}
+menu a{
+    display: block;
+  padding: 8px;
+  background-color: black;
 }
 menu a{
     color: whitesmoke;
-
+}
+menu li a:hover{
+    background-color: red;
+}
+.active{
+    background-color: green;
 }
