@@ -40,5 +40,5 @@ menu li:last-child {
     background-color: whitesmoke;
     display: flex;
     justify-content: center;
-    max-width: unset;
+    width: 100%;
 }
