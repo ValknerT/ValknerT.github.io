@@ -43,7 +43,7 @@ menu li:last-child {
 }
 .grid-container{
     height: 100vh;
-    border: 10px solid #14a76c;
+    border: 10px solid #514f4f;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 200px 200px;
