@@ -46,9 +46,10 @@ menu li:last-child {
     border: 10px solid #514f4f;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 200px 200px;
+    grid-template-rows:repeat(2, 1fr)
     grid-gap: 10px 20px ;
-    justify-content: space-evenly;
+    
+
     
 }
 
