@@ -45,7 +45,7 @@ menu li:last-child {
     border-radius: 12px;
     display: flex;
     justify-content: center;
-    width: 50%;
+    max-width: 50%;
 }
 
 
