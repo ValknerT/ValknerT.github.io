@@ -40,5 +40,8 @@ menu li:last-child {
     display: flex;
     justify-content: center;
 }
+#informasjon{
+    background-color: whitesmoke;
+}
 
 
