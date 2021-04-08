@@ -42,6 +42,9 @@ menu li:last-child {
 }
 #informasjon{
     background-color: whitesmoke;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
 }
 
 
