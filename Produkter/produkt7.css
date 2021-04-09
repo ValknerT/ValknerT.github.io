@@ -1,0 +1,44 @@
+body{
+    background-color: #514f4f;
+
+}
+menu{
+    background-color: black;
+}
+menu ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+menu li{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  background-color: black;
+}
+menu a{
+    color: whitesmoke;
+}
+menu li a:hover{
+    background-color: #514f4f;
+    transform: scale(1.1);
+}
+menu li:last-child {
+    border-right: none;
+  }
+.active{
+    background-color: green;
+}
+
+#overskrift{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
