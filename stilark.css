@@ -33,6 +33,12 @@ menu li a:hover{
 menu li:last-child {
     border-right: none;
   }
+menu input[type=text]{
+    padding: 5px;
+    float: inline-start;
+    width: 150px;
+    
+}
 .active{
     background-color: green;
 }
