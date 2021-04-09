@@ -28,6 +28,7 @@ menu a{
 }
 menu li a:hover{
     background-color: #514f4f;
+    transform: scale(1.1);
 }
 menu li:last-child {
     border-right: none;
