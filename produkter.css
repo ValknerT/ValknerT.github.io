@@ -1,15 +1,22 @@
 body{
-    background-color: #514f4f;
+    background-image: url(https://media.giphy.com/media/mFw9Pwhvaf7lDvUci8/giphy.gif); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+header {
+    font-family: 'Karantina', cursive;
+   font-size: 25px;
+   margin-bottom: 15px;
 }
-menu{
-    background-color: black;
-}
+
 menu ul{
     list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-family: 'Karantina', cursive;
+   font-size: 22px;
 }
 menu li{
     float: left;
@@ -21,52 +28,33 @@ menu li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  background-color: black;
 }
-menu a{
-    color: whitesmoke;
-}
+
 menu li a:hover{
-    background-color: #514f4f;
     transform: scale(1.1);
 }
+
 menu li:last-child {
     border-right: none;
   }
-  menu input[type=text]{
-    padding: 5px;
-    float: inline-start;
-    width: 150px;
-    
-}
-.active{
-    background-color: green;
-}
-#overskrift{
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-}
+
 .grid-container{
     height: 100vh;
-    border: 10px solid #514f4f;
+    border: 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows:repeat(2, 1fr);
     grid-gap: 10px 20px ;
-    text-decoration: none;
-
-
-    
+    text-decoration: none; 
 }
 
 .grid-item{
-    background-color: whitesmoke;
-    border: 4px solid #514f4f;
+    border: 4px;
     padding: 20px;
     border-radius: 12px;
-    color: black;
-    
+   color: gray; 
+   font-family: 'Karantina', cursive;
+   font-size: 25px;
 }
 .grid-container a{
     text-decoration: none;
