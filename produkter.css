@@ -10,6 +10,11 @@ header {
    margin-bottom: 15px;
 }
 
+header a{
+    text-decoration: none;
+    color: black;
+}
+
 menu ul{
     list-style-type: none;
   margin: 0;
@@ -24,7 +29,7 @@ menu li{
 }
 menu li a{
     display: block;
-    color: white;
+    color: #919191;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

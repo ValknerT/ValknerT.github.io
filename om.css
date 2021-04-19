@@ -1,11 +1,13 @@
 body{
-    background-color: #514f4f;
+    background-image: url(https://media.giphy.com/media/mFw9Pwhvaf7lDvUci8/giphy.gif); 
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
-menu{
-    background-color: black;
-}
+
 menu ul{
+    font-family: 'Karantina', cursive;
+    font-size: 25px;
     list-style-type: none;
   margin: 0;
   padding: 0;
@@ -21,13 +23,9 @@ menu li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  background-color: black;
 }
-menu a{
-    color: whitesmoke;
-}
+
 menu li a:hover{
-    background-color: #514f4f;
     transform: scale(1.1);
 }
 menu li:last-child {
@@ -38,16 +36,14 @@ menu li:last-child {
     float: inline-start;
     width: 150px;
   }
-.active{
-    background-color: green;
-}
 #overskrift{
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
+    font-family: 'Karantina', cursive;
+    font-size: 25px;
+    margin-bottom: 15px;
 }
 #informasjon{
-    background-color: whitesmoke;
+    font-family: 'Karantina', cursive;
+    font-size: 25px;
     border-radius: 12px;
     display: flex;
     justify-content: center;
@@ -55,4 +51,7 @@ menu li:last-child {
     margin-right: auto;
     max-width: 40%;
 }
-
+header a{
+    text-decoration: none;
+    color: black;
+}
