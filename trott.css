@@ -9,7 +9,10 @@ body{
    font-size: 25px;
    margin-bottom: 15px;
 }
-
+header a {
+    text-decoration: none;
+    color: black;
+}
 #genser{
     font-family: 'Karantina', cursive;
    font-size: 25px;
